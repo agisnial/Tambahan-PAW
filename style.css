@@ -8,8 +8,16 @@
    
 }
 
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 .box-atas{
-    height:94.8%;
     text-align: center;
     font-style: normal;
     font-family: 'Inter';
@@ -23,7 +31,6 @@
     margin: 0;
     /*height: 8.57%;*/
     width: 100%;
-    font-size: 10px;
 }
 
 *{
@@ -38,8 +45,8 @@
 }
 
 .box-kanan,.box-kiri{
-	grid-template-columns: repeat(2,1fr);
-	display: grid;
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
 }
 
 .box-kanan{
@@ -63,7 +70,7 @@
 }
 
 .box-bawah>.pengguna1>.identitas{
-	grid-template-columns: 7% 93%;
+    grid-template-columns: 7% 93%;
     display: grid;
 }    
 
@@ -119,7 +126,7 @@
             top: 33%;
         }
         .poin-kiri{
-            left:16%;
+            left:20%;
             top: 33%;
         }
         .box-bawah>.pengguna1>.identitas{
@@ -162,4 +169,3 @@
             display: grid;
         }
     }
-
