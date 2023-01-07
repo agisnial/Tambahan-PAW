@@ -9,13 +9,13 @@
 }
 
 .box-atas{
+    height:91.5%;
     text-align: center;
     font-style: normal;
     font-family: 'Inter';
     color: var(--Putih);
     font-weight: 800;
     font-size:90px;
-    height:/*91.5%;*/ 609px;
     min-height: 90px;
     letter-spacing: normal;
 }
@@ -101,7 +101,7 @@
 
 @media(max-width:780px){
     .box-atas{
-        height: 630px;
+        height: 100%;
         font-size: 50px;       
     }
 
@@ -127,12 +127,13 @@
     }
 }
 
+
 @media only screen
     and (min-device-width: 320px)
     and (max-device-width: 2800px)
     and (orientation: landscape){
         .box-atas{
-            height:200px;
+            height:91.5%;
             min-height: 37px;
         }
         .box-kanan{
@@ -142,5 +143,21 @@
         .box-kiri{
             left: 73%;
             top:40%;
+        }
+        .poin-kanan{
+        left:70%;
+        top: 40%;
+        }
+        .poin-kiri{
+            left:16%;
+            top: 40%;
+        }
+        .box-bawah>.pengguna1>.identitas{
+            grid-template-columns: 16% 90%;
+            display: grid;
+        }
+        .box-bawah>.pengguna2>.identitas{
+            grid-template-columns: 84% 16%;
+            display: grid;
         }
     }
