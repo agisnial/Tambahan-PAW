@@ -107,6 +107,9 @@ body{
     background-color: var(--Abu2);
     padding-right: 15px;
 }
+.box-bawah{
+    font-size:30px;
+}
 
 @media(orientation: landscape){
         .box-atas{
@@ -139,6 +142,9 @@ body{
         .box-bawah>.pengguna2>.identitas{
             grid-template-columns: 84% 16%;
             display: grid;
+        }
+        .box-bawah{
+            font-size:10px;
         }
     }
 
