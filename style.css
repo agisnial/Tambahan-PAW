@@ -9,14 +9,13 @@
 }
 
 .box-atas{
-    height:91.5%;
+    height:96.8%;
     text-align: center;
     font-style: normal;
     font-family: 'Inter';
     color: var(--Putih);
     font-weight: 800;
     font-size:90px;
-    min-height: 90px;
     letter-spacing: normal;
 }
 
@@ -51,13 +50,13 @@
 }
 
 .poin-kanan{
-    top: 33%;
+    top: 40%;
     left:71%;
     position: fixed;
 }
 
 .poin-kiri{
-    top: 33%;
+    top: 40%;
     left:20%;
     position: fixed;
 }
@@ -127,12 +126,9 @@
     }
 }
 
-@media only screen
-    and (min-device-width: 320px)
-    and (max-device-width: 2800px)
-    and (orientation: landscape){
+@media(orientation: landscape){
         .box-atas{
-            height:91.5%;
+            height:90.2%;
             min-height: 37px;
         }
         .box-kanan{
@@ -144,12 +140,12 @@
             top:40%;
         }
         .poin-kanan{
-        left:70%;
-        top: 40%;
+            left:70%;
+            top: 33%;
         }
         .poin-kiri{
             left:16%;
-            top: 40%;
+            top: 33%;
         }
         .box-bawah>.pengguna1>.identitas{
             grid-template-columns: 16% 90%;
