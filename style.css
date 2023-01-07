@@ -9,7 +9,7 @@
 }
 
 .box-atas{
-    height:96.8%;
+    height:94.8%;
     text-align: center;
     font-style: normal;
     font-family: 'Inter';
@@ -23,6 +23,7 @@
     margin: 0;
     /*height: 8.57%;*/
     width: 100%;
+    font-size: 10px;
 }
 
 *{
@@ -102,7 +103,7 @@
 
 @media(orientation: landscape){
         .box-atas{
-            height:91.5%;
+            height:93.6%;
             min-height: 37px;
         }
         .box-kanan{
@@ -133,7 +134,7 @@
 
 @media(orientation: portrait){
         .box-atas{
-            height:96.8%;
+            height:97.7%;
             min-height: 37px;
         }
         .box-kanan{
