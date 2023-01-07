@@ -121,6 +121,9 @@ body{
             left: 73%;
             top:40%;
         }
+        .poin-kanan,.poin-kiri{
+            top: 22% !important;
+        }
         .poin-kanan{
             left:70%;
             top: 33%;
